@@ -2,6 +2,8 @@ package bet.apk.songbook;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -19,6 +21,14 @@ public class MainActivity extends AppCompatActivity {
         listview.setAdapter(songListAdapter);
 
 
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.options_menu, menu);
+
+        return true;
     }
 
     private ArrayList<Song> getSongs() {
