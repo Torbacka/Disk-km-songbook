@@ -27,7 +27,7 @@ SongbookOld/.idea/workspace.xml
 SongbookOld/*.jks
 
 
-
+.idea
 .gradle
 app/build
 /local.properties

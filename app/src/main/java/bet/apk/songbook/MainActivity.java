@@ -20,15 +20,15 @@ import com.google.android.gms.common.api.GoogleApiClient;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
-
+    private static final String TAG = "MainActivity";
     /**
      * ATTENTION: This was auto-generated to implement the App Indexing API.
      * See https://g.co/AppIndexing/AndroidStudio for more information.
      */
     private GoogleApiClient client;
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
+     @Override
+    protected void onCreäate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
